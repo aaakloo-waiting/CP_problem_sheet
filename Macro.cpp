@@ -40,6 +40,9 @@ signed main(){
     for(int cs=1;cs<=t;cs++){
         //cout<<"Case "<<cs<<": ";
         solve();
+	if(cs<t){
+      	    ln;
+        }
     }
     return 0;
 }
