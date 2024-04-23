@@ -13,9 +13,10 @@ using namespace std;
 #define vb vector<bool>
 #define vs vector<string>
 #define ln cout<<'\n'
+#define spc cout<<" "
 #define all(x) x.begin(),x.end()
 #define rep(i,a,b) for (int i=a; i<b; ++i)
-#define rev(i,a,b) for (int i=a; i>b; --i)
+#define rev(i,a,b) for (int i=a-1; i>=b; --i)
 #define fastio ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 #define filein freopen("input.txt", "r" , stdin);freopen("output.txt", "w", stdout);
 #define setpr(x) cout<<setprecision(x)<<fixed
@@ -29,8 +30,9 @@ const long double pi = acos(-1.0);
 const ll md = 1000000007;
 //................ "Peace Be Upon You" ......................................
 
-void solve(){
-	
+void solve(int tc){
+    
+    //cout<<"Case "<<cs<<": ";
 }
 
 signed main(){
@@ -38,11 +40,8 @@ signed main(){
     int t=1;
     //cin>>t;
     for(int cs=1;cs<=t;cs++){
-        //cout<<"Case "<<cs<<": ";
-        solve();
-	if(cs<t){
-      	    ln;
-        }
+        solve(cs);
+        if(cs<t)ln;
     }
     return 0;
 }
